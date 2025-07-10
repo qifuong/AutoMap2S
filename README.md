@@ -2,8 +2,8 @@
 # 🗺️ AutoMap2SGamer – Tool Di chuyển bản đồ trong 2SGamer
 
 **Phiên bản:** 1.0  
-**Tác giả:** Yisu
-**Ngôn ngữ:** AutoIt  
+**Tác giả:** Yisu  
+**Ngôn ngữ:** C++  
 **Thời gian:** 2023-02-20
 ---
 
