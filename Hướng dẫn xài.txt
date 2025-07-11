@@ -8,6 +8,8 @@ B4: chuẩn bị bắt đầu ván đấu sau hiệu lực đếm 3 2 1 bắt đ
 
 ***Nhớ tích ô "Tránh treo máy" để nó tự ấn di chuyển để khỏi bị diss game***
 
+***Không được thay đổi bất cứ thứ gì trong Coordinate***
+
 Mọi thắc mắc liên hệ mình để được hướng dẫn xài <3
 
 
