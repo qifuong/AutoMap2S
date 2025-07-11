@@ -72,4 +72,5 @@ Công cụ có giao diện người dùng (GUI) trực quan với nhiều nút �
 ```
 © 2025 Yisu - Dựa trên mã nguồn gốc SpeedYoung
 Cấm chia sẻ công khai nếu chưa có sự cho phép
+- Mọi vấn đề liên quan đến xài Tool bị khoá acc hay có bất cứ hành động phá game để bị report thì tự chịu nha <3
 ```
