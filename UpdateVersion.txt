@@ -1,0 +1,44 @@
+===========================
+ AutoMap2SGamer - CHANGELOG
+===========================
+
+📌 Phiên bản 2.2 – 13/07/2025
+-----------------------------
+- Đã tích hợp toàn bộ map vào nội bộ (bỏ thư mục Coordinate)
+- Chỉ còn 1 file duy nhất – dễ chia sẻ, không lo thiếu file
+- Tối ưu hiệu suất: Sleep 10ms → mượt hơn, giảm CPU
+- Cảnh báo rõ ràng hơn khi thao tác sai / mất kết nối
+
+📌 Phiên bản 2.0 – 10/07/2025
+-----------------------------
+- Bắt đầu tích hợp dữ liệu map vào nội bộ
+- Không còn phụ thuộc file ngoài (.txt)
+- Tăng ổn định khi chạy trên nhiều máy
+
+💡 Tính năng chính (Từ 1.0 → 2.x)
+----------------------------------
+• Xác thực HWID nâng cao:
+  - Trạng thái hiển thị: Đã duyệt / Đang chờ / Lỗi
+  - Mã hóa & gửi HWID qua URL bảo mật
+  - Xác thực không đồng bộ bằng AdLibRegister
+
+• Hỗ trợ 40+ map:
+  - Bao gồm map ẩn: Lâu Đài Ma, Công Xưởng Mèo Máy,...
+  - Lọc map nhanh theo A–Z, ALL
+
+• Dark Mode mượt mà:
+  - Chuyển đổi sáng/tối linh hoạt, có hiệu ứng hover
+
+• Tự động cập nhật:
+  - Kiểm tra & tải bản mới từ server khi có
+
+• Giao diện tối ưu:
+  - 6 hàng × 8 nút, bố cục rõ ràng
+  - Hiệu ứng hover + cảnh báo màu đỏ
+  - Tối ưu tốc độ thao tác và phản hồi
+
+⚠️ Lưu ý sử dụng
+-----------------------------
+• Không di chuyển giao diện khi đang chơi
+• Nếu game mất kết nối:
+   → Tắt tool → Đăng nhập lại game → Mở lại tool
