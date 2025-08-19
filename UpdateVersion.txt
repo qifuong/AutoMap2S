@@ -1,6 +1,11 @@
 ===========================
  AutoMap2SGamer - CHANGELOG
 ===========================
+📌 Phiên bản 2.3 – 13/07/2025
+-----------------------------
+- Tối ưu hiệu suất: Sleep 10ms → mượt hơn, giảm CPU
+- Điều chỉnh map Trung Tâm Thể Thao và Làng Ninja
+- Điều chỉnh thời gian tránh diss và tránh cảnh báo hack
 
 📌 Phiên bản 2.2 – 13/07/2025
 -----------------------------
