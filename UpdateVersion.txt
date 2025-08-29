@@ -1,24 +1,40 @@
 ===========================
  AutoMap2SGamer - CHANGELOG
 ===========================
-📌 Phiên bản 2.3 – 13/07/2025
+📌 Phiên bản 2.3.2 – 29/08/2025
+-----------------------------
+- Tối ưu hiệu suất
+- Điều chỉnh thời gian và checkpoint tại các bản đồ:
+  * Khe Núi Hiểm Trở
+  * Đảo Cầu Vồng
+  * Đầm Sương Mù
+  * Aegean Sea
+  * Thành Phố Xanh
+  * Rừng Sâu
+  * Đường Vòng Ven Biển
+-----------------------------
+
+📌 Phiên bản 2.3 – ???/08/2025
 -----------------------------
 - Tối ưu hiệu suất: Sleep 10ms → mượt hơn, giảm CPU
 - Điều chỉnh map Trung Tâm Thể Thao và Làng Ninja
 - Điều chỉnh thời gian tránh diss và tránh cảnh báo hack
+-----------------------------
 
 📌 Phiên bản 2.2 – 13/07/2025
 -----------------------------
 - Đã tích hợp toàn bộ map vào nội bộ (bỏ thư mục Coordinate)
 - Chỉ còn 1 file duy nhất – dễ chia sẻ, không lo thiếu file
 - Tối ưu hiệu suất: Sleep 10ms → mượt hơn, giảm CPU
-- Cảnh báo rõ ràng hơn khi thao tác sai / mất kết nối
+- Cảnh báo r-----------------------------
+õ ràng hơn khi thao tác sai / mất kết nối
 
 📌 Phiên bản 2.0 – 10/07/2025
 -----------------------------
 - Bắt đầu tích hợp dữ liệu map vào nội bộ
 - Không còn phụ thuộc file ngoài (.txt)
 - Tăng ổn định khi chạy trên nhiều máy
+-----------------------------
 
 💡 Tính năng chính (Từ 1.0 → 2.x)
 ----------------------------------
@@ -41,6 +57,7 @@
   - 6 hàng × 8 nút, bố cục rõ ràng
   - Hiệu ứng hover + cảnh báo màu đỏ
   - Tối ưu tốc độ thao tác và phản hồi
+-----------------------------
 
 ⚠️ Lưu ý sử dụng
 -----------------------------
