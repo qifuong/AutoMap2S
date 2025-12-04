@@ -1,6 +1,21 @@
 ===========================
  AutoMap2SGamer - CHANGELOG
 ===========================
+📌 Phiên bản 2.5 – 04/12/2025
+-----------------------------
+- Tối ưu hiệu suất
+- Điều chỉnh thời gian và checkpoint tại các bản đồ:
+  * Sao Cầu Vồng
+  * Công Viên Cơ Giới
+- Thêm Auto Cốt Truyện
+* Hoàng tộc toả sáng (8 map) 
+* Nhìn khấp thế giới (7 map) 
+* Vượt chân trời (8 map) 
+* Vùng đất bị mất (12 map) 
+* Bão Táp-6 (11 map) 
+* Hạ Đội Đua Bão Táp (12 map)
+-----------------------------
+
 📌 Phiên bản 2.3.2 – 29/08/2025
 -----------------------------
 - Tối ưu hiệu suất
