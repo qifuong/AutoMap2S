@@ -1,76 +1,145 @@
-
 # 🗺️ AutoMap2SGamer – Tool Di chuyển bản đồ trong 2SGamer
 
-**Phiên bản:** 1.0  
+**Phiên bản hiện tại:** 2.5  
 **Tác giả:** Yisu  
-**Ngôn ngữ:** C++  
-**Thời gian:** 2023-02-20
+**Ngôn ngữ:** AutoIt / C++ backend  
+**Ngày cập nhật:** 04/12/2025
+
 ---
 
 ## 🚀 Giới Thiệu
 
-**AutoMap2SGamer** là một công cụ được viết bằng AutoIt giúp người dùng tự động hóa việc dịch chuyển giữa các bản đồ trong game **2SGamer**, với khả năng xác thực phần cứng (HWID) để kiểm soát quyền truy cập, tránh share lung tung
+**AutoMap2SGamer** là công cụ hỗ trợ di chuyển nhanh giữa các bản đồ trong game **2SGamer**, tích hợp xác thực **HWID** để đảm bảo mỗi người dùng chỉ có thể chạy tool trên **một thiết bị duy nhất**, tránh share và nâng cao bảo mật.
 
-Công cụ có giao diện người dùng (GUI) trực quan với nhiều nút điều khiển tương ứng từng map, hỗ trợ dark mode, combo chống treo máy và tự động kiểm tra cập nhật.
+Giao diện đơn giản, trực quan, hỗ trợ **Dark Mode**, **Auto Cốt Truyện**, tối ưu FPS và hạn chế treo máy.
 
 ---
 
 ## 🔐 Tính Năng Chính
 
-- ✅ **Xác thực HWID trước khi sử dụng** (bảo vệ một máy duy nhất)
-- 🗺️ **Danh sách 30+ map** có thể dịch chuyển nhanh
-- 🌓 **Dark Mode** chuyển đổi trực tiếp trong GUI
-- 🕵️‍♂️ **Combo chống treo máy**
-- 🌐 **Tự động kiểm tra phiên bản mới**
-- 🔒 **Giao diện nhẹ, an toàn, không ảnh hưởng game**
+- ✅ **Xác thực HWID** – mỗi máy 1 key, chống share  
+- 🗺️ **Hơn 40 bản đồ** được tích hợp sẵn  
+- 🌓 **Dark Mode** chuyển đổi trực tiếp  
+- ⚙️ **Auto Cốt Truyện** cho 6 cụm map  
+- 🕵️ **Combo chống treo máy**  
+- 🌐 **Check cập nhật tự động**  
+- ⚡ Tool tối ưu cực nhẹ – chạy song song game không lag  
 
 ---
 
 ## 🛠️ Yêu Cầu
 
-- Windows 10/11
-- Quyền **Administrator**
-- file EXE
-- Kết nối internet để kiểm tra HWID và cập nhật
+- Windows 10 / 11  
+- Quyền Administrator  
+- Kết nối Internet để xác thực HWID  
+- File `.exe` của tool (không cần file ngoài)
 
 ---
 
 ## 🧪 Cách Hoạt Động
 
-1. Khi khởi động, tool thực hiện:
-   - Mở file `.exe` với quyền Admin.
-   - Kiểm tra HWID máy.
-   - Nếu HWID đã được duyệt: mở GUI chính.
-   - Nếu chưa được duyệt: thoát ngay.
+### Khi mở tool:
+1. Chạy dưới quyền Admin  
+2. Lấy HWID máy → gửi về server  
+3. Server trả về trạng thái:
+   - **Đã duyệt** → mở GUI  
+   - **Chưa duyệt** → thoát ngay  
+   - **Lỗi kết nối** → hiện cảnh báo  
 
-2. Sau khi được xác thực:
-   - Người dùng có thể click vào tên map để dịch chuyển nhanh trong game.
-   - Có thể bật chế độ “Tránh Treo Máy” để gửi combo một lần.
-   - Dark Mode có thể bật/tắt tức thì.
-   - Tool kiểm tra phiên bản mới và gợi ý tải nếu có.
+### Khi sử dụng:
+- Click tên map để dịch chuyển  
+- Có thể bật/tắt Combo Chống Treo Máy  
+- Dark Mode đổi giao diện tức thì  
+- Tự động check phiên bản mới  
 
 ---
 
-
 ## 🔒 Bảo Mật
 
-- URL kết nối được mã hóa bằng
-- Chỉ thiết bị có trong danh sách mới được duyệt
-- Không lưu thông tin người dùng cục bộ
+- HWID mã hóa khi truyền đi  
+- URL xác thực bị ẩn và mã hóa  
+- Không lưu bất kỳ thông tin gì ở máy người dùng  
+
+---
+
+## 📄 CHANGELOG
+
+===========================
+ AutoMap2SGamer - CHANGELOG
+===========================
+
+📌 **Phiên bản 2.5 – 04/12/2025**
+-----------------------------
+- Tối ưu hiệu suất  
+- Điều chỉnh thời gian và checkpoint tại các bản đồ:
+  * Sao Cầu Vồng  
+  * Công Viên Cơ Giới  
+- Thêm chế độ Auto Cốt Truyện với các map:
+  * Hoàng tộc toả sáng (8 map)  
+  * Nhìn khắp thế giới (7 map)  
+  * Vượt chân trời (8 map)  
+  * Vùng đất bị mất (12 map)  
+  * Bão Táp-6 (11 map)  
+  * Hạ Đội Đua Bão Táp (12 map)  
+
+📌 **Phiên bản 2.3.2 – 29/08/2025**
+-----------------------------
+- Tối ưu hiệu suất  
+- Điều chỉnh thời gian và checkpoint tại:
+  * Khe Núi Hiểm Trở  
+  * Đảo Cầu Vồng  
+  * Đầm Sương Mù  
+  * Aegean Sea  
+  * Thành Phố Xanh  
+  * Rừng Sâu  
+  * Đường Vòng Ven Biển  
+
+📌 **Phiên bản 2.3 – ??/08/2025**
+-----------------------------
+- Tối ưu Sleep 10ms → giảm lag/CPU  
+- Điều chỉnh map:
+  * Trung Tâm Thể Thao  
+  * Làng Ninja  
+- Điều chỉnh thời gian tránh diss và cảnh báo hack  
+
+📌 **Phiên bản 2.2 – 13/07/2025**
+-----------------------------
+- Tích hợp toàn bộ map vào nội bộ  
+- Không cần thư mục Coordinate  
+- Giảm CPU, chạy mượt hơn  
+- Cảnh báo rõ ràng hơn khi thao tác sai / mất kết nối  
+
+📌 **Phiên bản 2.0 – 10/07/2025**
+-----------------------------
+- Tích hợp dữ liệu map vào nội bộ  
+- Không còn phụ thuộc file .txt  
+- Tăng ổn định trên nhiều máy  
+
+---
+
+## 💡 Tính năng chính (1.0 → 2.x)
+
+- Xác thực HWID nâng cao  
+- Hỗ trợ 40+ map, bao gồm map ẩn  
+- Dark Mode đẹp, hiệu ứng hover  
+- Auto Update  
+- GUI bố cục 6×8 nút, phản hồi cực nhanh  
+
+---
+
+## ⚠️ Lưu ý sử dụng
+- Không kéo GUI khi đang chơi  
+- Nếu game diss:
+  → Tắt tool → Đăng nhập lại → Mở tool  
 
 ---
 
 ## 🌐 Liên Hệ
-
-- 📘 Facebook: [LeeQiFuong](https://www.facebook.com/LeeQiFuong)
-- 📧 Email (nếu có): đang cập nhật...
+- Facebook: **LeeQiFuong**  
 
 ---
 
 ## 📜 Bản Quyền
-
-```
-© 2025 Yisu - Dựa trên mã nguồn gốc SpeedYoung
-Cấm chia sẻ công khai nếu chưa có sự cho phép
-- Mọi vấn đề liên quan đến xài Tool bị khoá acc hay có bất cứ hành động phá game để bị report thì tự chịu nha <3
-```
+© 2025 Yisu – Dựa trên mã nguồn SpeedYoung  
+Không chia sẻ công khai nếu chưa được phép  
+Dùng tool gây khoá acc hoặc phá game → tự chịu  
