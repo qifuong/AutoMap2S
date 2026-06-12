@@ -2,7 +2,6 @@
 
 **Phiên bản hiện tại:** 2.5  
 **Tác giả:** Yisu  
-**Ngôn ngữ:** AutoIt / C++ backend  
 **Ngày cập nhật:** 04/12/2025
 
 ---
